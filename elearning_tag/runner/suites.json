@@ -1,0 +1,59 @@
+{
+  "case_tag_for_daily": {
+    "title": "标签组件(测试环境)-每日构建",
+    "report_file": "101daily_auxo_tag",
+    "env": "test",
+    "levels":[5],
+    "cases": {
+      "auxo_tag": [
+        "v1.test_project",
+        "v2.test_project"
+      ],
+      "elearning_tag_gateway": [
+        "v1.test_project"
+      ]
+    },
+    "receivers": [660204],
+    "group": [40422839]
+  },
+   "case_tag_for_ol": {
+    "title": "101教育平台-标签-api接口-生产拨测",
+    "report_file": "101online_auxo_tag",
+    "env": "ol",
+    "levels":[6],
+    "cases": {
+      "auxo_tag": [
+        "v1.test_project",
+        "v2.test_project"
+      ],
+      "elearning_tag_gateway": [
+        "v1.test_project"
+      ]
+    },
+    "receivers": [660204],
+    "group": [40422839],
+    "monitor":1,
+    "proid": 99,
+    "contact": {
+      "users": ["吴伯海"]
+    }
+  },
+   "case_tag_for_wjt": {
+    "title": "101教育平台-标签-api接口-wjt大教育部署",
+    "report_file": "101wjt_auxo_tag",
+    "env": "wjt",
+    "levels":[7],
+    "cases": {
+      "auxo_tag": [
+        "v1.test_project",
+        "v2.test_project"
+      ],
+      "elearning_tag_gateway": [
+        "v1.test_project"
+      ]
+    },
+    "receivers": [660204],
+    "group": []
+  }
+}
+
